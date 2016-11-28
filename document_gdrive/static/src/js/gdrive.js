@@ -54,7 +54,7 @@ odoo.define('document_gdrive.menu_item', function(require) {
                     window.gapi.auth.authorize({
                             'client_id': clientId,
                             'scope': scope,
-                            'immediate': f
+                            'immediate': false, 
                             'include_granted_scopes': true
                         },
                         function(authResult) {
