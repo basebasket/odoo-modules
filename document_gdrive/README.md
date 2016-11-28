@@ -14,7 +14,8 @@ You must create a Google API ClientID using your Google account :
 - Enable Drive and Picker API
 - Add a credentials of type OAuth 2.0 client ID
 - Select Web application 
-- Fill in both Authorized Redirect URIs and Authorized JavaScript Origins to your Odoo hostname.
+- Fill in both Authorized Redirect URIs and Authorized JavaScript Origins to your Odoo hostname. 
+- Adding /oauth2callback after Authorized Redirect URIs, remember using 'http://localhost:8069' instead of 'http://0.0.0.0:8069'
 - Copy paste the client_id in the Configuration/Knowledge section. 
 
 If you are also using the Google Authentication module you can use the same id, just 
